@@ -2,6 +2,7 @@
 This microservice is responsible for handling API calls
 
 ### Scripts
+Copy the `secret` you generated in ML-Backend over before starting.
 
 `yarn run dev`
 
