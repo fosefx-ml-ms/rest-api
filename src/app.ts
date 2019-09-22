@@ -17,3 +17,4 @@ app.use(bodyParser.json())
 
 
 app.post("/", upload.single('image') , classify);
+app.get("*", (_, res) => res.status(405).json({error: "Method not allowed", descr: "Use POST / with the body of image=<your image file>"}).end());
