@@ -17,6 +17,7 @@
   "license": "None",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "google-protobuf": "^3.10.0-rc.1",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.6",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^4.16.1",
     "@types/google-protobuf": "^3.7.1",
